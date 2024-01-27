@@ -1,0 +1,105 @@
+body{
+    background-color: rgb(14, 14, 32);
+}
+.navbar{
+    background-color: rgb(207, 218, 60);
+    display: flex;
+    justify-content: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.heading{
+    font-size: 4vw;
+    font-weight: bold;
+    color:rgb(13, 14, 17);
+}
+.inpdiv{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+    color:rgb(180, 184, 253);
+    font-size: 20px;
+}
+.divform{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgba(22, 14, 32, 0.562);
+    border:solid 1px rgb(207, 218, 60);
+    border-radius: 10px;
+}
+.line{
+    height:6px;
+    background-color: rgb(219, 219, 240);
+}
+.inp{
+    width:30vw;
+}
+.subtn{
+    margin-top: 6%;
+    margin-bottom: 3%;
+    width:37%;
+}
+h2{
+    margin-top: 5%;
+    color: rgb(180, 184, 253);
+}
+.selectdiv{
+    display: flex;
+    flex-direction: column;
+    color:rgb(180, 184, 253);
+    font-size: larger;
+    margin-bottom: 3%;
+}
+.q2 ,.q1 , .q3 , .q4,.q5{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15%;
+    font-size: 2vw;
+}
+.htmlquiz{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:aliceblue;
+}
+.options{
+    margin-top: 10px;
+}
+.next{
+    margin-top: 10px;
+}#htmlq{
+    color:rgb(180, 184, 253);
+    margin-bottom: 7%;
+}
+.result{
+    display: flex;
+    color:rgb(180, 184, 253);
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2vw;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+.rinp , .sinp{
+    height:2.5vw;
+    width:17vw;
+    background-color:rgba(22, 14, 32, 0.562) ;
+    border: solid rgba(22, 14, 32, 0.562);
+    color:rgb(180, 184, 253);
+    font-weight: bold;
+    font-size: 2vw;
+}
+.sinp{
+    width:5vw;
+}
+
+.opinp{
+    height:1.3vw;
+    width:1.3vw;
+    border: solid black;
+    border-radius: 30px;
+}

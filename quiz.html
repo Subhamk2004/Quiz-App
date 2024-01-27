@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="quiz.css">
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 id="head1" class="heading">Quiz App</h1>
+    </nav>
+    <div class="divform container col-7">
+        <form class="fform text-center">
+            <h2>Enter Your Details</h2>
+            <hr class="line">
+            <div class="inpdiv container-fluid">
+                <div class="namediv"><label for="name">Name</label>
+                    <input class="inp" required type="text" id="name">
+                </div>
+                <div class="dobdiv"><label for="dob">D.O.B</label>
+                    <input class="inp" required type="date" id="dob">
+                </div>
+                <div class="emaildiv"><label for="email">Email</label>
+                    <input class="inp" required type="email" id="email">
+                </div>
+            </div>
+        </form>
+        <button class="subtn btn btn-outline-success"> Proceed</button>
+        
+        <div class="htmlquiz">
+            <h3 id="htmlq">HTML5 Quiz</h3>
+            <div class="q1">
+                <p id="q1">Q1. What does the abbreviation HTML stand for?
+                </p>
+                <label class="options11" for="oph11">
+                    <input class = "opinp" required id="oph11" name="ops" type="radio">HyperText Markup Language.
+                </label>
+                <label class="options12" for="oph12">
+                    <input class = "opinp" required id="oph12" name="ops" type="radio">HighText Markup Language.
+                </label>
+                <label class="options13" for="oph13">
+                    <input class = "opinp" required id="oph13" name="ops" type="radio">HyperText Markdown Language.
+                </label>
+                <label class="options14" for="oph14">
+                    <input class = "opinp" required id="oph14" name="ops" type="radio">None of the above.
+                </label>
+                <button id = "bs1" class="next btn btn-outline-success btn-default">Submit
+                    
+                </button>
+                <button id = "bn1" class="next btn btn-outline-primary btn-default">Next
+
+                </button>
+            </div>
+
+            <div class="q2">
+                <p id="q2">Q2.
+
+                    Which of the following is correct about HTML?
+
+                </p>
+                <label class="options21" for="oph21">
+                    <input class = "opinp" required id="oph21" name="oph1s" type="radio">HTML uses User Defined Tags
+                </label>
+                <label class="options22" for="oph22">
+                    <input class = "opinp" required id="oph22" name="oph1s" type="radio">HTML uses tags defined within the language
+                </label>
+                <label class="options23" for="oph23">
+                    <input class = "opinp" required id="oph23" name="oph1s" type="radio">Both A and B
+                </label>
+                <label class="options24" for="oph24">
+                    <input class = "opinp" required id="oph24" name="oph1s" type="radio">None of the above.
+                </label>
+                <button id = "bs2" class="next btn btn-outline-success btn-default">Submit
+                    
+                </button>
+                <button  id = "bn2" class="next btn btn-outline-primary btn-default">Next</button>
+            </div>
+
+            <div class="q3">
+                <p id="q3">Q3. Which of the following doesn't require a closing tag?
+                </p>
+                <label class="options31" for="oph31">
+                    <input class = "opinp" required id="oph31" name="oph2s" type="radio">< br >
+                </label>
+                <label class="options32" for="oph32">
+                    <input class = "opinp" required id="oph32" name="oph2s" type="radio">< hr >
+                </label>
+                <label class="options33" for="oph33">
+                    <input class = "opinp" required id="oph33" name="oph2s" type="radio">Both A and B
+                </label>
+                <label class="options34" for="oph34">
+                    <input class = "opinp" required id="oph34" name="oph2s" type="radio">None of the above.
+                </label>
+                <button id = "bs3" class="next btn btn-outline-success btn-default">Submit
+                    
+                </button>
+                <button id = "bn3"  class="next btn btn-outline-primary btn-default">Next</button>
+            </div>
+
+            <div class="q4">
+                <p id="q4">Q4. What is meant by an empty tag in HTML?
+                </p>
+                <label class="options41" for="oph41">
+                    <input class = "opinp" required id="oph41" name="oph3s" type="radio">There is no such concept of an empty tag in HTML
+                </label>
+                <label class="options42" for="oph42">
+                    <input class = "opinp" required id="oph42" name="oph3s" type="radio">An empty tag does not require a closing tag
+                </label>
+                <label class="options43" for="oph43">
+                    <input class = "opinp" required id="oph43" name="oph3s" type="radio">They can't have any content within it
+                </label>
+                <label class="options44" for="oph44">
+                    <input class = "opinp" required id="oph44" name="oph3s" type="radio">None of the above.
+                </label>
+                <button id = "bs4" class="next btn btn-outline-success btn-default">Submit
+                    
+                </button>
+                <button  id = "bn4" class="next btn btn-outline-primary btn-default">Next</button>
+            </div>
+            <div class="q5">
+                <p id="q5">Q5. 
+
+                    Which of the following is the correct syntax for using the HTML style attribute?
+                    
+                </p>
+                <label class="options51" for="oph51">
+                    <input class = "opinp" required id="oph51" name="oph4s" type="radio">< tagname style = "property:value;" >
+                </label>
+                <label class="options52" for="oph52">
+                    <input class = "opinp" required id="oph52" name="oph4s" type="radio">< tagname style = "property;" >
+                </label>
+                <label class="options53" for="oph53">
+                    <input class = "opinp" required id="oph53" name="oph4s" type="radio">< tagname style >
+                </label>
+                <label class="options54" for="oph54">
+                    <input class = "opinp" required id="oph54" name="oph4s" type="radio">None of the above.
+                </label>
+                <button id = "bn5"  class="next btn btn-outline-success btn-default">Submit</button>
+                <button id = "r1"  class="next btn btn-outline-success btn-default">See Result</button>
+            </div>
+
+        </div>
+        <div class="result container">
+            <input type = "text" id ="rinpp" class = "rinp" value = "">
+            , your score is 
+            <input id = "sinpp" type = "text" value = " " class = "sinp">
+            <form><button type = "submit" class = "btn btn-outline-info">Start Over</button></form>
+            
+        </div>
+    </div>
+
+
+</body>
+<script src="jquery-3.7.1.min.js"></script>
+<script src=" https://cdn.jsdelivr.net/npm/jquery-validation@1.20.0/dist/jquery.validate.min.js "></script>
+<script src="quiz.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</html>
