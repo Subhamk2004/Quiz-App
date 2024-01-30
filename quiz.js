@@ -285,7 +285,7 @@ $(document).ready(function () {
 
   $(".subtn").click(function () {
     let x = $("#name:text").val();
-    document.getElementById("rinpp").value = x;
+    document.getElementById("rinpp").innerHTML = x;
     console.log(x);
   });
 
@@ -334,7 +334,7 @@ $(document).ready(function () {
     $(".q5").hide(0);
     console.log(total);
     $(".result").slideDown(500);
-    document.getElementById("sinpp").value = total;
+    document.getElementById("sinpp").innerHTML = total;
   });
   function animatee() {
     $(".heading").animate(

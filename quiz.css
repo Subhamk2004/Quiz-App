@@ -21,13 +21,14 @@ body{
     font-size: 20px;
 }
 .divform{
-    margin-top: 5%;
+    margin-top: 15%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color:rgba(22, 14, 32, 0.562);
+    background-color:rgba(25, 25, 26, 0.37);
     border:solid 1px rgb(207, 218, 60);
     border-radius: 10px;
+    backdrop-filter: blur(2px);
 }
 .line{
     height:6px;
@@ -78,20 +79,11 @@ h2{
     display: flex;
     color:rgb(180, 184, 253);
     justify-content: center;
-    align-items: center;
     font-weight: bold;
     font-size: 2vw;
     margin-bottom: 10%;
     margin-top: 5%;
-}
-.rinp , .sinp{
-    height:2.5vw;
-    width:17vw;
-    background-color:rgba(22, 14, 32, 0.562) ;
-    border: solid rgba(22, 14, 32, 0.562);
-    color:rgb(180, 184, 253);
-    font-weight: bold;
-    font-size: 2vw;
+    gap:7px;
 }
 .sinp{
     width:5vw;
@@ -102,4 +94,53 @@ h2{
     width:1.3vw;
     border: solid black;
     border-radius: 30px;
+}
+#bg{
+    height:100vh;
+    width:100vw;
+    position: fixed;
+    top:0;
+    z-index: -1;
+}
+@media screen and (max-width:480px)
+{
+    .heading{
+        font-size: 8vw;
+        color:rgb(37, 30, 63);
+    }
+    .divform{
+        margin-top: 34%;
+        backdrop-filter: blur(3px);
+        width:87%;
+  
+    }
+    .inpdiv{
+        width:65vw;
+    }
+    .newc{
+        display: flex;
+
+    }
+    .inp{
+        margin-left: 5%;
+        width:45vw;
+        background-color: rgba(143, 143, 143, 0.575);
+        border-radius: 8px;
+        border:solid 1px 0px;
+    }
+    .htmlquiz{
+        width:100%;
+    }
+    .q1,.q2,.q3,.q4,.q5{
+        width:100%;
+        font-size: 4.6vw;
+    }
+    .opinp{
+        width:10px;
+        height:10px;
+        margin-right: 2%;
+    }
+    .result{
+        font-size: 4.5vw;
+    }
 }

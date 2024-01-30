@@ -12,6 +12,7 @@
 </head>
 
 <body>
+    <img id = "bg" src = "qbg.jpg">
     <nav class="navbar">
         <h1 id="head1" class="heading">Quiz App</h1>
     </nav>
@@ -19,23 +20,23 @@
         <form class="fform text-center">
             <h2>Enter Your Details</h2>
             <hr class="line">
-            <div class="inpdiv container-fluid">
-                <div class="namediv"><label for="name">Name</label>
+            <div class="inpdiv container-fluid ">
+                <div class="namediv newc"><label for="name">Name</label>
                     <input class="inp" required type="text" id="name">
                 </div>
-                <div class="dobdiv"><label for="dob">D.O.B</label>
+                <div class="dobdiv newc"><label for="dob">D.O.B</label>
                     <input class="inp" required type="date" id="dob">
                 </div>
-                <div class="emaildiv"><label for="email">Email</label>
+                <div class="emaildiv newc"><label for="email">Email</label>
                     <input class="inp" required type="email" id="email">
                 </div>
             </div>
         </form>
         <button class="subtn btn btn-outline-success"> Proceed</button>
         
-        <div class="htmlquiz">
+        <div class="htmlquiz ">
             <h3 id="htmlq">HTML5 Quiz</h3>
-            <div class="q1">
+            <div class="q1 ">
                 <p id="q1">Q1. What does the abbreviation HTML stand for?
                 </p>
                 <label class="options11" for="oph11">
@@ -147,9 +148,9 @@
 
         </div>
         <div class="result container">
-            <input type = "text" id ="rinpp" class = "rinp" value = "">
-            , your score is 
-            <input id = "sinpp" type = "text" value = " " class = "sinp">
+            <p type = "text" id ="rinpp" class = "rinp" value = ""></p>
+            <p>, your score is </p>
+            <p id = "sinpp" type = "text" value = " " class = "sinp"></p>
             <form><button type = "submit" class = "btn btn-outline-info">Start Over</button></form>
             
         </div>
